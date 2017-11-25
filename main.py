@@ -78,7 +78,7 @@ while running:
             enemy = player.choose_target(enemies)
 
             enemies[enemy].take_damage(dmg)
-            print(player.name.replace(":", "") + "attacked " + enemies[enemy].name.replace(" ", "")  + "for", dmg, " points of damage.")
+            print(player.name.replace(":", "") + "attacked " + enemies[enemy].name.replace(" ", "")  + " for", dmg, "points of damage.")
 
             if enemies[enemy].get_hp() == 0:
                 print(enemies[enemy].name.replace(" ", "") + " has died")
