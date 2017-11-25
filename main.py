@@ -89,7 +89,7 @@ while running:
         elif index == 1:
             player.choose_magic()
 
-            magic_choice =int(input("    Choose magic:")) - 1
+            magic_choice =int(input("    Choose magic: ")) - 1
 
             #Return to menu
             if magic_choice == -1:

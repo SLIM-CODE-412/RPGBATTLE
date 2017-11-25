@@ -94,7 +94,7 @@ class Person:
             if enemy.get_hp != 0:
                 print("       " + str(i) + ".", enemy.name)
                 i += 1
-        choice = int(input("    Choose target:")) -1
+        choice = int(input("    Choose target: ")) -1
         return choice
 
 
